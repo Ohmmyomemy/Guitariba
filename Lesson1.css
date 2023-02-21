@@ -1,0 +1,424 @@
+/* Container holding the image and the text */
+body{
+  background: rgb(217,212,44);
+  background: linear-gradient(90deg, rgba(217,212,44,1) 0%, rgba(121,63,9,1) 35%, rgba(48,47,6,1) 100%);
+}
+.container {
+    position: relative;
+  }
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    top: 20px;
+    left: 650px;
+    background-color: rgb(180, 80, 55);
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 90%;
+    transform: translateX(100px);
+    opacity: 50;
+    transition: 2s all ease;
+    width: 1000;
+  }
+  .container Img{
+      border-radius: 100px 100px 100px 100px ;
+      height: 650px;
+      width: 600px;
+  }
+.container{
+    display: grid;
+    height: 100vh;
+  }
+  .txt-block{
+    position: absolute;
+    top: 300px;
+    left: 650px;
+    background-color: rgb(75, 64, 52);
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px 100px 100px 100px;
+    opacity: 90%;
+    width: 800px;
+    transform: translate-x(100px);
+    opacity: 50;
+    transition: 4s all ease;
+  }
+  .txt-blocka{
+    position: absolute;
+    top: 550px;
+    right: 50px;
+    background-color: rgb(194, 174, 84);
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 100px 5px 100px 100px;
+    opacity: 90%;
+    width: 400px;
+    transform: translate-x(100px);
+    opacity: 50;
+    transition: 6s all ease;
+  }
+  .txt-blockb{
+    position: absolute;
+    top: 750px;
+    left: 650px;
+    background-color: rgb(75, 64, 52);
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius: 5px 100px 100px 100px;
+    opacity: 90%;
+    width: 650px;
+    transform: translate-x(100px);
+    opacity: 50;
+    transition: 2s all ease;
+  }
+  .txt-blockc{
+    position: absolute;
+    top: 1050px;
+    right: 50px;
+    background-color: rgb(194, 174, 84);
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 100px 5px 100px 100px;
+    opacity: 90%;
+    width: 400px;
+    transform: translate-x(100px);
+    opacity: 50;
+    transition: 2s all ease;
+  }
+  .txt-blockd{
+    position: absolute;
+    top: 1250px;
+    left: 650px;
+    background-color: rgb(75, 64, 52);
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius: 5px 100px 100px 100px;
+    opacity: 90%;
+    width: 650px;
+    transform: translate-x(100px);
+    opacity: 50;
+    transition: 2s all ease;
+  }
+  .txt-blocke{
+    position: absolute;
+    top: 1400px;
+    left: 650px;
+    background-color: rgb(75, 64, 52);
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius: 5px 100px 100px 100px;
+    opacity: 90%;
+    width: 650px;
+    transform: translate-x(100px);
+    opacity: 50;
+    transition: 2s all ease;
+  }
+  .txt-blockf{
+    position: absolute;
+    top: 1650px;
+    right: 50px;
+    background-color: rgb(194, 174, 84);
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 100px 5px 100px 100px;
+    opacity: 90%;
+    width: 400px;
+    transform: translate-x(100px);
+    opacity: 50;
+    transition: 2s all ease;
+  }
+  .txt-blockg{
+    position: absolute;
+    top: 1800px;
+    left: 650px;
+    background-color: rgb(75, 64, 52);
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius: 5px 100px 100px 100px;
+    opacity: 90%;
+    width: 650px;
+    transform: translate-x(100px);
+    opacity: 50;
+    transition: 2s all ease;
+  }
+  .txt-blockh{
+    position: absolute;
+    top: 2050px;
+    right: 50px;
+    background-color: rgb(194, 174, 84);
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 100px 5px 100px 100px;
+    opacity: 90%;
+    width: 400px;
+    transform: translate-x(100px);
+    opacity: 50;
+    transition: 2s all ease;
+  }
+  .txt-blocki{
+    position: absolute;
+    top: 2250px;
+    right: 50px;
+    background-color: rgb(194, 174, 84);
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 100px 5px 100px 100px;
+    opacity: 90%;
+    width: 400px;
+    transform: translate-x(100px);
+    opacity: 50;
+    transition: 2s all ease;
+  }
+  .txt-blockj{
+    position: absolute;
+    top: 2400px;
+    left: 650px;
+    background-color: rgb(75, 64, 52);
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius: 5px 90px 90px 90px;
+    opacity: 90%;
+    width: 650px;
+    transform: translate-x(100px);
+    opacity: 50;
+    transition: 2s all ease;
+  }
+  .txt-blockk{
+    position: absolute;
+    top: 2750px;
+    right: 50px;
+    background-color: rgb(194, 174, 84);
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 100px 5px 100px 100px;
+    opacity: 90%;
+    width: 400px;
+    transform: translate-x(100px);
+    opacity: 50;
+    transition: 2s all ease;
+  }
+  .txt-blockl{
+    position: absolute;
+    top: 2950px;
+    left: 650px;
+    background-color: rgb(75, 64, 52);
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius: 5px 90px 90px 90px;
+    opacity: 90%;
+    width: 400px;
+    transform: translate-x(100px);
+    opacity: 50;
+    transition: 2s all ease;
+  }
+  .txt-blockm{
+    position: absolute;
+    top: 3100px;
+    left: 650px;
+    background-color: rgb(75, 64, 52);
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius: 5px 90px 90px 90px;
+    opacity: 90%;
+    width: 800px;
+    transform: translate-x(100px);
+    opacity: 50;
+    transition: 2s all ease;
+  }
+  .txt-blockn{
+    position: absolute;
+    top: 3600px;
+    left: 650px;
+    background-color: rgb(75, 64, 52);
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius: 5px 90px 90px 90px;
+    opacity: 90%;
+    width: 800px;
+    transform: translate-x(100px);
+    opacity: 50;
+    transition: 2s all ease;
+  }
+  .txt-blocko{
+    position: absolute;
+    top: 4300px;
+    left: 650px;
+    background-color: rgb(75, 64, 52);
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius: 5px 90px 90px 90px;
+    opacity: 90%;
+    width: 800px;
+    transform: translate-x(100px);
+    opacity: 50;
+    transition: 2s all ease;
+  }
+  .txt-blockp{
+    position: absolute;
+    top: 5000px;
+    left: 650px;
+    background-color: rgb(75, 64, 52);
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius: 5px 90px 90px 90px;
+    opacity: 90%;
+    width: 800px;
+    transform: translate-x(100px);
+    opacity: 50;
+    transition: 2s all ease;
+  }
+.txt-blockq{
+    position: absolute;
+    top: 5700px;
+    left: 650px;
+    background-color: rgb(75, 64, 52);
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius: 5px 90px 90px 90px;
+    opacity: 90%;
+    width: 800px;
+    transform: translate-x(100px);
+    opacity: 50;
+    transition: 2s all ease;
+}
+.text-blockr{
+    position: absolute;
+    top: 6400px;
+    left: 650px;
+    background-color: rgb(75, 64, 52);
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius: 5px 90px 90px 90px;
+    opacity: 90%;
+    width: 800px;
+    transform: translate-x(100px);
+    opacity: 50;
+    transition: 2s all ease;
+}
+.txt-blocks{
+    position: absolute;
+    top: 7100px;
+    left: 650px;
+    background-color: rgb(75, 64, 52);
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius: 5px 90px 90px 90px;
+    opacity: 90%;
+    width: 800px;
+    transform: translate-x(100px);
+    opacity: 50;
+    transition: 2s all ease;
+}
+.txt-blockt{
+    position: absolute;
+    top: 7750px;
+    left: 650px;
+    background-color: rgb(75, 64, 52);
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius: 5px 90px 90px 90px;
+    opacity: 90%;
+    width: 800px;
+    transform: translate-x(100px);
+    opacity: 50;
+    transition: 2s all ease;
+}
+.txt-blockv{
+    position: absolute;
+    top: 8250px;
+    right: 50px;
+    background-color: rgb(194, 174, 84);
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 100px 5px 100px 100px;
+    opacity: 90%;
+    width: 400px;
+    transform: translate-x(100px);
+    opacity: 50;
+    transition: 2s all ease;
+}
+/*Back to home link button*/
+.rickandroll{
+  position: absolute;
+  right: 10%;
+  top: 8400px;
+  border-radius: 100px 100px 100px 100px;
+  background-color: rgb(75, 64, 52);
+  color: white;
+  border: none;
+  font-family: monospace;
+}
+
+.rickandroll:hover{
+  opacity: 0.8;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="Lesson.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body background="Lesson BG.jpg">
+<!-- Side bar-->
+<!-- Click to slide and choose your lessons-->
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="Lesson1.html">Lesson1<h6>Each part of Guitar</h6></a>
+  <a href="Lesson2.html">Lesson2<h6>Positioning</h6></a>
+  <a href="Chord.html">Lesson3<h6>Basic Chord</h6></a>
+  <a href="Lesson4.html">Lesson4<h6>Rhythm</h6></a>
+  <a href="Lesson5.html">Lesson5<h6>Fundamental Playing Style</h6></a>
+  <a href="Lesson6.html">Lesson6<h6>Song Practice</h6></a>
+  <a href="#"><br></a>
+</div>
+<!--Button series-->
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ Lesson</button> <br>
+  <a href="home.html"><button class="Reverse">☰ Home page</button></a>
+</div>
+<div class="bg-image"></div>
+
+<!--Quotes at the right-->
+<div class="bg-text">
+  <h1>Guitar Practice</h1>
+  <p>Choose Some Lesson</p>
+</div>
+<!--Java Script-->
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+</body>
+</html> 

@@ -1,0 +1,106 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+  }
+  /*Side bar elements*/
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #c8bea7;
+    overflow-x: hidden;
+    transition: 1s;
+    padding-top: 60px;
+    font-family: monospace ;
+    opacity: 70%;
+  }
+  .sidebar a {
+    padding: 10px 10px 10px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #070707;
+    display: block;
+    transition: 0.3s;
+    text-shadow: 2px 2px 5px rgb(31, 30, 30);
+  }
+  
+  .sidebar a:hover {
+    color: #ebd48b;
+    opacity: 80%;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  /*on click with java script*/
+  .openbtn {
+    font-size: 20px;
+    cursor: crosshair;
+    background-color: #111;
+    color: white;
+    padding: 15px 15px;
+    border: none;
+    margin-top: 0px;
+    opacity: 80%;
+    transition: 1s;
+    border-radius: 3px 3px 3px 3px;
+  }
+  
+  
+  .openbtn:hover {
+    background-color: rgb(238, 220, 142);
+  }
+  
+  /*Media Screen sidebar*/
+  #main {
+    transition: margin-left 1s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  ::-webkit-scrollbar{
+      width: 10px;
+  }
+  ::-webkit-scrollbar-track{
+      background: #ebd48b;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(209, 208, 195);
+  } 
+  .bg-text{
+    color: #c0ab6a;
+    text-align: right;
+    margin-top: 200px;
+    margin-right: 100px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  }
+  #main .Reverse{
+    font-size: 20px;
+    cursor: crosshair;
+    background-color: #111;
+    color: white;
+    padding: 15px 15px;
+    border: none;
+    margin-top: 20px;
+    opacity: 80%;
+    transition: 1s;
+    border-radius: 3px 3px 3px 3px;
+  }
+  #main .Reverse:hover{
+    background-color: rgb(238, 220, 142);
+  }

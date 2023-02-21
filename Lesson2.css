@@ -1,0 +1,107 @@
+body{
+    position:absolute;
+    width:100%; 
+    height:100%;
+    background-size:cover;
+    overflow-y: scroll;
+  }
+  .container {
+      position: relative;
+    }
+    /* Bottom right text */
+    .text-block {
+      position: absolute;
+      top: 20px;
+      left: 650px;
+      background-color: rgb(53, 52, 52);
+      font-family: monospace;
+      font-size: 30px;
+      color: white;
+      padding-left: 20px;
+      padding-right: 20px;
+      border-radius: 10px 10px 10px 10px;
+      opacity: 90%;
+      transform: translateX(100px);
+      opacity: 60%;
+      transition: 0.8s all ease;
+      width: 1200px;
+      height: 600px;
+    }
+    .text-block:hover{
+      opacity: 100%;
+    }
+    .text-blocka{
+        position: absolute;
+      top: 700px;
+      left: -5px;
+      background-color: rgb(53, 52, 52);
+      font-family: monospace;
+      font-size: 30px;
+      color: white;
+      padding-left: 20px;
+      padding-right: 20px;
+      border-radius: 10px 10px 10px 10px;
+      opacity: 60%;
+      transform: translateX(100px);
+      opacity: 60%;
+      transition: 1s all ease;
+      width: 1200px;
+      height: 200px;
+    }
+    .text-blocka:hover{
+      opacity: 100%;
+    }
+    .text-blockb{
+        position: absolute;
+        top: 950px;
+        right: 120px;
+        background-color: rgb(53, 52, 52);
+        font-family: monospace;
+        font-size: 30px;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px 10px 10px 10px;
+        transform: translateX(100px);
+        opacity: 60%;
+        transition: 1.5s all ease;
+        width: 1200px;
+        height: 250px;
+    }
+    .text-blockb:hover{
+      opacity: 100%;
+    }
+    /*Iamges*/
+    .container Img{
+        border-radius: 100px 100px 100px 100px ;
+        height: 600px;
+        width: 700px;
+        margin-top:70px;
+        margin-left: 30px;
+    }
+  .container{
+      display: grid;
+      height: 100vh;
+    }
+    body h4{
+        position: relative;
+        font-size: 50px;
+        right: 0px;
+    }
+    body a .ui{
+        color: rgb(39, 37, 37);
+        background-color: rgb(235, 230, 220);
+        border: none;
+        border-radius: 6px 6px 6px 6px;
+        box-sizing: border-box;
+        width: 200px;
+        height: 100px;
+        opacity: 20%;
+        font-size: 30px;
+        margin-top: 0px;
+    }
+    body a .ui:hover{
+        background-color: darkgoldenrod;
+        opacity: 100%;
+    }
+    

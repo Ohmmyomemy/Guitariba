@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+  }
+  /*Coppy from homepage for keeping preset*/
+  /*Many css here is not uses*/
+  ul{
+    list-style-type: none;
+  }
+  .wrapHead{
+    width: 90%;
+    margin: 0 auto;
+    transition: all ease-in-out 0.5s;
+    z-index: 3;
+  }
+  .wrapHead.fixed-to-top{
+    width: 96%;
+  }
+  header{
+    position: fixed;
+    width: 100%;
+    background: rgba(38, 50, 56, 0.5);
+    padding: 10px 0;
+    z-index: 1;
+    transition: all ease-in-out 0.5s;
+  }
+  li{
+    font-size: 20px;
+    display:inline;padding:8px;
+  }
+  header:after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+  header.fixed-to-top{
+    background: rgba(38, 50, 56, 1);
+  }
+  #brand{
+    color: #ccc;
+    float: left;
+  }
+  #brand h1{
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 5px #111;
+  }
+  nav{
+    float: right;
+    margin-top: 10px;
+  }
+  nav li{
+    display: inline-block;
+    margin: 0 4px;
+  }
+  nav li a{
+    padding: 10px 0;
+    text-decoration: none;
+    color: #e1e1e1;
+    transition: all ease-in-out 0.5s;
+  }
+  nav li a:hover{
+    color: #bbb;
+  }
+  section{
+    height: 50vh;
+    display: flex;
+    z-index: 0;
+  }
+  
+  section h2{
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+    text-shadow: 10px 10px 3px rgba(0,0,0, 0.2);
+  }
+  h2{
+    align-content: center;
+  }
+  #home{
+    background-image: url(image/Home/header.png);
+  }
+  .lesson-text{
+    font-family:  sans-serif;
+    position: absolute;
+    margin: 80px;
+    margin-left: 160px;
+    font-size: 30px;
+    max-width: 500px;
+    width: 80%;
+    color: #221210;
+  }
+  h1::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: rgb(221, 8, 8);
+    top: -40%;
+    position: absolute;
+  }
+  img{
+    object-fit: cover;
+  }
+  img.lesson1,img.lesson2,img.lesson3{
+    filter: drop-shadow(10px 10px 4px rgba(94, 94, 94, 0.267));
+  }
+  .lesson-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  img:hover{
+    opacity: 0.8;
+  }
+  
+  .lesson1{
+    display: inline-block;
+    margin-left: -5%;
+    max-width: 650px;
+    width: 100%;
+    height: auto;
+  }
+  .lesson2{
+    display: inline-block;
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    margin-top: -100%;
+    height: auto;
+  
+  }
+  .lesson3{
+    display: inline-block;
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: -100%;
+    margin-left: -100%;
+    height: auto;
+  }
+  
+  
+  #lesson{
+    height: 250vh;
+    background: #fffcf8;
+  }
+  .ultchord{
+      max-width: 1000px;
+      width: 100%;
+      height: auto;
+      margin-top: 15%;
+  }
+  .chord-text{
+    font-family:  sans-serif;
+    position: absolute;
+    margin: 80px;
+    margin-left: 160px;
+    font-size: 30px;
+    max-width: 500px;
+    width: 80%;
+    color: #221210;
+    z-index: 1;
+  }
+  h1::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: rgb(221, 8, 8);
+    top: -40%;
+    position: absolute;
+  }
+  .cbg{
+    z-index: -1;
+    display: flex;
+    max-width: 2000px;
+    width: 100%;
+    height: auto;
+    margin-top: 380px;
+  }
+  img.cbg:hover{
+    opacity: 1;
+  }
+  .chordblock{
+    z-index: 0;
+    position: absolute;
+    right: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 200px;
+  }
+  img.bsc,img.avc{
+    filter: drop-shadow(10px 10px 4px rgba(94, 94, 94, 0.267));
+    max-height: 500px;
+    height: 100%;
+    width: auto;
+  }
+  .bsc{
+    position: absolute;
+    margin-right: 20%;
+  }
+  .avc{
+    margin-left: 120%;
+  }
+  /*Usage zone*/
+  #chord{
+    height: 150vh;
+    background: #fffcf8;
+  }
+  .ultkey{
+        display: block;
+        margin-left: 1000px;
+        width: 100%;
+      
+  }
+  /*2 picture*/
+  .end{
+    font-family:  sans-serif;
+    position: absolute;
+    margin: 80px;
+    margin-left: 160px;
+    font-size: 30px;
+    max-width: 500px;
+    width: 80%;
+    color: #ffffff;
+    z-index: 1;
+  }
+  h1::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: rgb(221, 8, 8);
+    top: -40%;
+    position: absolute;
+  }
+  
+  #contact{
+    background: #231e19;
+    height: 80vh;
+  }
+  .profile img{
+    z-index: 2;
+    position: absolute;
+    margin-top: 380px;
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+    transform: translate(-50%, 0);
+  }
+  p{
+    font-family:  sans-serif;
+    color: #ccc;
+    position: absolute;
+    font-size: 20px;
+    max-width: 500px;
+  }
+  .ok{
+    margin-top: 300px;
+    margin-left: 300px;
+  }
+  /*p::after{
+    content: "";
+    display: block;
+    width: 500px;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    top: 150%;
+    position: absolute;
+  }*/
+  img.ohm:hover, img.pae:hover{
+    opacity: 1;
+  }
+  /*Image*/
+  .jack{
+    right: 65%;
+  }
+  .ohm{
+    right: 40%;
+  }
+  .pae{
+    right: 15%;
+  }
+  
+  .info{
+    margin-top: 550px;
+  }
+  /*Name and IG*/
+  /*Jack*/
+  .pjack{
+    right: 66.5%;
+  }
+  .igjack{
+    padding-top: 30px;
+    right: 69.5%;
+  }
+  /*Link to IG*/
+  .igjack:hover{
+    font-size: larger;
+    color: aquamarine;
+  }
+  /*Ohm*/
+  .pohm{
+    right: 41.5%;
+  }
+  .igohm{
+    right: 44.5%;
+    padding-top: 30px;
+  }
+  .igohm:hover{
+    font-size: larger;
+    color: aquamarine;
+  }
+  /*Pae*/
+  .ppae{
+    right: 17.5%;
+  }
+  .igpae{
+    right: 18.5%;
+    padding-top: 30px;
+  }
+  .igpae:hover{
+    font-size: larger;
+    color: aquamarine;
+  }
+  

@@ -1,0 +1,57 @@
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body .myimg{
+    display: block;
+    width: 550px;
+    height: 350px;
+    shape-image-threshold: unset;
+    margin-top: 100px;
+    margin-right: 0px;
+    border-radius: 6px 6px 6px 6px;
+    z-index: 1;
+    transition: all ease-in 0.5s;
+}
+body h1{
+    color: rgb(141, 103, 14);
+    font-size: 100;
+    text-shadow: 2px 1px 10px rgb(58, 48, 7);
+    margin-top: 20px;
+}
+body a .btn{
+    background-color: #424611; /* Green */
+    border: none;
+  border-radius: 5px 5px 5px 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  opacity: 70%;
+}
+body a .btn:hover{
+    background: fixed;
+    background-color: beige;
+}
+body a .bbtn{
+    background-color: #424611; /* Green */
+    border: none;
+  border-radius: 5px 5px 5px 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  right: 25px;
+}
+body p{
+    color: bisque;
+    font-size: 40px;
+    text-shadow: 5px 5px 5px black;
+}

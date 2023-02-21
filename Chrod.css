@@ -1,0 +1,180 @@
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+    image-resolution: 100px;
+  }
+  body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  body a .come{
+    position: absolute; /* Position them relative to the browser window */
+    right: -50px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: rgb(236, 231, 231); /* White text color */
+    border-radius: 5px 5px 5px 5px; /* Rounded corners on the top right and bottom right side */
+    image-resolution: 100px;
+    background-color: #625d46;
+    border: none;
+  }
+  body a .come:hover{
+    right: 0;
+  }
+  .right-container {
+    position: absolute;
+    right: 0;
+    top: 100px;
+  }
+  #icon-chat {
+    font-size: 30px;
+  }
+  .right-container .right-container-button {
+    width: 100px;
+    height: 70px;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #a59c4a;
+    transition: all 300ms;
+    cursor: pointer;
+    padding: 20px;
+    color: white;
+    font-family: roboto, sans-serif;
+  }
+  .right-container .right-container-button span {
+    color: white;
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    line-height: 28px;
+  }
+  .right-container .right-container-button:hover {
+    transition: all 400ms cubic-bezier(.62, .1, .5, 1);
+    width: 250px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .right-container .right-container-button .long-text {
+    transition: opacity 1000ms;
+    opacity: 0;
+    color: white;
+    white-space: nowrap;
+    font-size: 0;
+    width: 0;
+    margin: 0;
+  }
+  .right-container .right-container-button .long-text.show-long-text {
+    transition: opacity 700ms, width 1ms linear 270ms, font-size 1ms linear 270ms;
+    opacity: 1;
+    margin-right: 45px;
+    font-size: 20px;
+    width: auto;
+  }
+  
+  #mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  
+  /* The about link: 20px from the top with a green background */
+  #about {
+    top: 0px;
+    background-color: #625d46;
+    opacity: 80%;
+    box-shadow: 2px 2px 1px wheat;
+    height: 50px;
+  }
+  
+  #blog {
+    top: 100px;
+    background-color: #625d46;
+    opacity: 80%; /* Blue */
+    box-shadow: 2px 2px 1px wheat;
+    height: 50px;
+  }
+  
+  #projects {
+    top: 200px;
+    background-color: #625d46;
+    opacity: 80%; /* Red */
+    box-shadow: 2px 2px 1px wheat;
+    height: 50px;
+  }
+  
+  #contact {
+    top: 300px;
+    background-color: #625d46;
+    opacity: 80%; /* Light Black */
+    box-shadow: 2px 2px 1px wheat;
+    height: 50px;
+  }
+  #last{
+      top: 400px;
+      background-color: #625d46;
+      opacity: 80%;
+      box-shadow: 2px 2px 1px wheat;
+      height: 50px;
+  }
+  #mind{
+    top: 500px;
+    background-color: #625d46;
+    opacity: 80%;
+    box-shadow: 2px 2px 1px wheat;
+    height: 50px;
+}
+  #pae{
+    top: 600px;
+    background-color: #625d46;
+    opacity: 80%;
+    box-shadow: 2px 2px 1px wheat;
+    height: 50px;
+}
+#ohm{
+    top: 700px;
+    background-color: #625d46;
+    opacity: 80%;
+    box-shadow: 2px 2px 1px wheat;
+    height: 50px;
+}
+#tai{
+    top: 800px;
+    background-color: #625d46;
+    box-shadow: 2px 2px 1px wheat;
+    opacity: 80%;
+    height: 50px;
+}
+#dugdig{
+    top: 900px;
+    background-color: #625d46;
+    opacity: 80%;
+    box-shadow: 2px 2px 1px wheat;
+    height: 50px;
+}
+body h1{
+  position: absolute;
+      top: 500px;
+      left: 500px;
+      background-color: rgb(53, 52, 52);
+      font-family: monospace;
+      font-size: 40px;
+      color: white;
+      border-radius: 10px 10px 10px 10px;
+      opacity: 90%;
+      transform: translateX(100px);
+      opacity: 40%;
+      transition: 2s all ease;
+      width: 1000px;
+      height: 100px;
+      padding-left: 140px;
+      padding-top: 60px;
+}

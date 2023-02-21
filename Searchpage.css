@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*Slide bar*/
+body a .come{
+    position: absolute; /* Position them relative to the browser window */
+    right: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: rgb(236, 231, 231); /* White text color */
+    border-radius: 5px 5px 5px 5px; /* Rounded corners on the top right and bottom right side */
+    image-resolution: 100px;
+    background-color: rgb(10, 236, 131);
+    border: none;
+    height: 600px;
+  }
+  body a .come:hover{
+    right: 0;
+  }
+/*Input result*/
+.input {
+    padding: 10px;
+    width: 100px;
+    height: 80px;
+    background: none;
+    border: 4px solid #f5c506;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 26px;
+    color: #4de4e9;
+    outline: none;
+    transition: .5s;
+}
+/*What sup Brooo*/
+.box:hover input {
+    width: 350px;
+    border-radius: 10px;
+}
+i {
+    position: absolute;
+    top: 50%; right: 15px;
+    transform: translate(-50%, 50%);
+    font-size: 26px;
+    color: #ffd52d;
+    transition: .2s;
+}
+.box:hover .open {
+    opacity: 0; z-index: -1;
+}
+.close {
+    opacity: 0;
+}
+.deff {
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    background: rgb(10, 236, 131);
+    padding: 12px;
+    border-radius: 100px;
+}
